@@ -1,2 +1,5 @@
 **/*.mkv
 **/*.jpg
+**/*.pt
+**/*.prototxt
+**/*.caffemodel
