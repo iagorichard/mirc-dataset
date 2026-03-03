@@ -3,3 +3,4 @@
 **/*.pt
 **/*.prototxt
 **/*.caffemodel
+**/*.dtxt
