@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "v4.0.0-beta.1",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -332,8 +333,7 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam4_000165.jpg",
