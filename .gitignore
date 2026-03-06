@@ -4,3 +4,4 @@
 **/*.prototxt
 **/*.caffemodel
 **/*.dtxt
+**/*.zip
