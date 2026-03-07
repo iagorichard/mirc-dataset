@@ -28,7 +28,10 @@ class CropBoxes(ConstantBase):
                 ((780,  0),    (1500, 1280)),  # Camera 3
                 ((780,  1320), (1500, 2600)),  # Camera 4
             ]
-    
+
+class GenericMultiPersonDirPath(ConstantBase):
+    VALUE: Path = Path(r"multi-person/")
+
 class VideoDirPath(ConstantBase): 
     VALUE : Path = Path(r"../videos/").resolve()
 
@@ -36,10 +39,10 @@ class AnnotationsDirPath(ConstantBase):
     VALUE : Path = Path(r"../annotations/").resolve()
 
 class MultiPersonVideoDirPath(ConstantBase): 
-    VALUE : Path = (VideoDirPath.VALUE / Path(r"multi-person/")).resolve()
+    VALUE : Path = (VideoDirPath.VALUE / GenericMultiPersonDirPath.VALUE).resolve()
 
-class MultiPersonVideoDirPath(ConstantBase): 
-    VALUE : Path = (VideoDirPath.VALUE / Path(r"multi-person/")).resolve()
+class MultiPersonAnnotationsDirPath(ConstantBase): 
+    VALUE : Path = (AnnotationsDirPath.VALUE / GenericMultiPersonDirPath.VALUE).resolve()
 
 class ScriptLogsDirPath(ConstantBase): 
     VALUE : Path = Path("outputs/").resolve()
@@ -47,5 +50,14 @@ class ScriptLogsDirPath(ConstantBase):
 class LogMissingVideoFilePath(ConstantBase): 
     VALUE : Path = (ScriptLogsDirPath.VALUE / Path("videos_with_missing_annotations.dtxt")).resolve()
 
+class LogFramesQuantityAssertionFilePath(ConstantBase): 
+    VALUE : Path = (ScriptLogsDirPath.VALUE / Path("assertion_frames_quantity.dtxt")).resolve()
+
 class SARDirDataTemplate(ConstantBase):
     VALUE : str = "subject{0}/activity{1}/routine{2:02d}.mkv"
+
+class SARCDirDataTemplate(ConstantBase):
+    VALUE : str = "subject{0}/activity{1}/routine{2:02d}_cam{3}/"
+
+class JpegQualityRelease(ConstantBase): 
+    VALUE : int = 95

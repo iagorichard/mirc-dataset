@@ -13,8 +13,6 @@ def main():
     missing_data = get_missing_video_annotation_data_info()
     missing_videos = get_all_video_path_from_data_info(missing_data)
 
-    return
-
     if not missing_videos:
         print(f"No .mkv files found under: {root_dir}")
         return

@@ -77,3 +77,9 @@ def extract_frames_from_video(
 
     finally:
         cap.release()
+
+def get_video_frames_quantity(video_file_path : Path) -> int:
+    cap = cv2.VideoCapture(str(video_file_path))
+    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    cap.release()
+    return total_frames
