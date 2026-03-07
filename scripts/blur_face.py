@@ -61,7 +61,7 @@ def main():
     OUT_ROOT = Path(r"../annotations/blurred/")
 
     # YOLO weights (auto-download on first run)
-    YOLO_WEIGHTS = "yolov8n.pt"   # lightweight; try "yolov8s.pt" for better recall
+    YOLO_WEIGHTS = "models/yolov8n.pt"   # lightweight; try "yolov8s.pt" for better recall
     IMGSZ = 960                   # higher helps small persons (try 1280 if needed)
     CONF = 0.25                   # lower -> more detections (0.15–0.3 typical)
     IOU = 0.5

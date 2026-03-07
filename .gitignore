@@ -5,3 +5,4 @@
 **/*.caffemodel
 **/*.dtxt
 **/*.zip
+**/*.pyc
