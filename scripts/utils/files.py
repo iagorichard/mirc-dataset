@@ -78,7 +78,7 @@ def delete_annotations_missing_information(df_data_info : pd.DataFrame, subset_p
         data = df_data_info.loc[data_idx].to_dict()
         frames_folder_fname_relative = SARCDirDataTemplate.VALUE.format(data["SUBJECT"], data["ACTIVITY"], data["ROUTINE"], data["CAMERA"])
         frames_folder_path_absolute = (subset_absolute_path / Path(frames_folder_fname_relative)).resolve()
-        annotations = find_files_recursively(frames_folder_path_absolute, file_type=".json")
+        annotations = find_files_recursively(frames_folder_path_absolute, file_type="json")
 
         for annotation in annotations:
             annotation.unlink()
