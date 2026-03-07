@@ -1,9 +1,14 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "utils")))
+
 import cv2
 from pathlib import Path
 from typing import List
-from ..data.crop2pts import Crop2Pts
-from ..utils.files import ensure_cam_dirs
-from ..utils.maths import clamp_crop, is_valid_crop
+from crop2pts import Crop2Pts
+from files import ensure_cam_dirs
+from maths import clamp_crop, is_valid_crop
 
 def extract_frames_from_video(
     video_path: Path,

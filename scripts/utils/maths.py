@@ -1,5 +1,9 @@
-from ..data.point import Point
-from ..data.crop2pts import Crop2Pts
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data")))
+
+from point import Point
+from crop2pts import Crop2Pts
 
 def clamp_point(p: Point, w: int, h: int) -> Point:
     y, x = p

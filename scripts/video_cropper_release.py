@@ -1,13 +1,8 @@
 # extract_crops_from_mkv.py
 from __future__ import annotations
 from pathlib import Path
-
-import cv2
 from tqdm import tqdm
-
-from data.crop2pts import Crop2Pts
-from utils.files import find_files_recursively, ensure_cam_dirs
-from utils.maths import clamp_point, clamp_crop, is_valid_crop
+from utils.files import find_files_recursively
 from common.consts import CropBoxes, FrameSkipRelease, JpegQualityRelease
 from utils.videos import extract_frames_from_video
 
