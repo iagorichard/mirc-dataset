@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -256,10 +257,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -533,6 +534,66 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "person",
+      "score": null,
+      "points": [
+        [
+          1021.0280373831775,
+          513.9719626168225
+        ],
+        [
+          1032.2429906542056,
+          520.7009345794393
+        ],
+        [
+          1040.0934579439252,
+          530.4205607476636
+        ],
+        [
+          1043.4579439252336,
+          540.1401869158879
+        ],
+        [
+          1051.3084112149534,
+          547.9906542056076
+        ],
+        [
+          1060.2803738317757,
+          560.7009345794393
+        ],
+        [
+          1068.1308411214955,
+          568.1775700934579
+        ],
+        [
+          1071.1214953271026,
+          573.785046728972
+        ],
+        [
+          1067.0093457943924,
+          577.5233644859813
+        ],
+        [
+          982.8971962616822,
+          523.6915887850469
+        ],
+        [
+          968.3177570093457,
+          533.0373831775702
+        ],
+        [
+          958.5981308411215,
+          525.9345794392524
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
       "attributes": {},
       "kie_linking": []
     }
@@ -540,5 +601,6 @@
   "imagePath": "frame_crop_cam2_000345.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

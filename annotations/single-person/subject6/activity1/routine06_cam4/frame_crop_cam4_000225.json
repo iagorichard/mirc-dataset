@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -292,10 +293,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -677,10 +678,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -986,6 +987,82 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "person",
+      "score": null,
+      "points": [
+        [
+          732.5714285714286,
+          235.23809523809524
+        ],
+        [
+          722.6666666666667,
+          243.61904761904765
+        ],
+        [
+          714.5396825396826,
+          250.73015873015873
+        ],
+        [
+          706.920634920635,
+          255.8095238095238
+        ],
+        [
+          703.6190476190477,
+          262.92063492063494
+        ],
+        [
+          700.8253968253969,
+          270.5396825396826
+        ],
+        [
+          699.8095238095239,
+          284.5079365079365
+        ],
+        [
+          707.6825396825396,
+          286.79365079365084
+        ],
+        [
+          730.031746031746,
+          287.0476190476191
+        ],
+        [
+          756.6984126984127,
+          273.8412698412699
+        ],
+        [
+          771.4285714285714,
+          268.0
+        ],
+        [
+          782.0952380952381,
+          264.1904761904762
+        ],
+        [
+          760.5079365079365,
+          248.95238095238096
+        ],
+        [
+          743.2380952380952,
+          259.3650793650794
+        ],
+        [
+          751.8730158730159,
+          248.95238095238096
+        ],
+        [
+          748.8253968253969,
+          243.36507936507937
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
       "attributes": {},
       "kie_linking": []
     }
@@ -993,5 +1070,6 @@
   "imagePath": "frame_crop_cam4_000225.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

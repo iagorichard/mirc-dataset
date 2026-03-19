@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -171,28 +172,16 @@
           197.0
         ],
         [
-          1002.0,
-          211.0
+          1004.2506811989102,
+          209.97275204359678
         ],
         [
-          995.0,
-          212.0
+          1004.4686648501363,
+          221.74386920980928
         ],
         [
-          985.0,
-          208.0
-        ],
-        [
-          972.0,
-          207.0
-        ],
-        [
-          967.0,
-          202.0
-        ],
-        [
-          951.0,
-          195.0
+          983.3916083916083,
+          240.2097902097902
         ],
         [
           912.0,
@@ -296,12 +285,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000690.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

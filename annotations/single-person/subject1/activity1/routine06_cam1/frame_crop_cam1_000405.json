@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -291,80 +292,8 @@
           176.0
         ],
         [
-          498.0,
-          176.0
-        ],
-        [
-          493.0,
-          174.0
-        ],
-        [
-          488.0,
-          169.0
-        ],
-        [
-          479.0,
-          164.0
-        ],
-        [
-          471.0,
-          164.0
-        ],
-        [
-          467.0,
-          167.0
-        ],
-        [
-          462.0,
-          167.0
-        ],
-        [
-          459.0,
-          169.0
-        ],
-        [
-          451.0,
-          170.0
-        ],
-        [
-          439.0,
-          175.0
-        ],
-        [
-          436.0,
-          175.0
-        ],
-        [
-          426.0,
-          180.0
-        ],
-        [
-          419.0,
-          181.0
-        ],
-        [
-          417.0,
-          183.0
-        ],
-        [
-          417.0,
-          191.0
-        ],
-        [
-          419.0,
-          194.0
-        ],
-        [
-          419.0,
-          203.0
-        ],
-        [
-          421.0,
-          206.0
-        ],
-        [
-          421.0,
-          209.0
+          490.76376554174067,
+          183.41030195381882
         ],
         [
           417.0,
@@ -412,10 +341,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -701,12 +630,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam1_000405.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

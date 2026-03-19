@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -143,48 +144,8 @@
           258.0
         ],
         [
-          1038.0,
-          242.0
-        ],
-        [
-          1041.0,
-          237.0
-        ],
-        [
-          1039.0,
-          234.0
-        ],
-        [
-          1042.0,
-          226.0
-        ],
-        [
-          1036.0,
-          225.0
-        ],
-        [
-          1017.0,
-          214.0
-        ],
-        [
-          952.0,
-          187.0
-        ],
-        [
-          942.0,
-          188.0
-        ],
-        [
-          909.0,
-          210.0
-        ],
-        [
-          902.0,
-          212.0
-        ],
-        [
-          901.0,
-          215.0
+          971.4601769911503,
+          282.0353982300885
         ],
         [
           897.0,
@@ -272,10 +233,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -481,12 +442,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000480.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -235,84 +236,8 @@
           174.0
         ],
         [
-          502.0,
-          173.0
-        ],
-        [
-          497.0,
-          175.0
-        ],
-        [
-          493.0,
-          175.0
-        ],
-        [
-          487.0,
-          169.0
-        ],
-        [
-          484.0,
-          168.0
-        ],
-        [
-          475.0,
-          168.0
-        ],
-        [
-          474.0,
-          167.0
-        ],
-        [
-          471.0,
-          167.0
-        ],
-        [
-          467.0,
-          169.0
-        ],
-        [
-          462.0,
-          168.0
-        ],
-        [
-          458.0,
-          170.0
-        ],
-        [
-          455.0,
-          170.0
-        ],
-        [
-          450.0,
-          173.0
-        ],
-        [
-          440.0,
-          175.0
-        ],
-        [
-          437.0,
-          178.0
-        ],
-        [
-          434.0,
-          178.0
-        ],
-        [
-          427.0,
-          181.0
-        ],
-        [
-          422.0,
-          181.0
-        ],
-        [
-          418.0,
-          186.0
-        ],
-        [
-          420.0,
-          193.0
+          503.71287128712873,
+          173.19306930693068
         ],
         [
           419.0,
@@ -360,10 +285,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -633,12 +558,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam1_000345.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -348,10 +349,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -536,32 +537,36 @@
           307.0
         ],
         [
-          741.0,
-          311.0
+          734.0948275862069,
+          307.7370689655172
         ],
         [
-          744.0,
-          312.0
+          736.5086206896552,
+          307.7370689655172
         ],
         [
-          746.0,
-          315.0
+          734.0948275862069,
+          311.875
         ],
         [
-          756.0,
-          319.0
+          733.9224137931035,
+          315.4956896551724
         ],
         [
-          766.0,
-          319.0
+          733.0603448275863,
+          329.8060344827586
         ],
         [
-          770.0,
-          317.0
+          743.75,
+          336.875
         ],
         [
-          773.0,
-          317.0
+          759.9568965517242,
+          335.6681034482759
+        ],
+        [
+          777.0258620689656,
+          331.35775862068965
         ],
         [
           782.0,
@@ -713,10 +718,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1038,12 +1043,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000420.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

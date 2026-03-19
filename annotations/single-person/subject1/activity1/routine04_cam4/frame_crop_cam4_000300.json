@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -236,10 +237,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -498,6 +499,50 @@
       ],
       "group_id": null,
       "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "person",
+      "score": null,
+      "points": [
+        [
+          705.5913978494624,
+          237.84946236559148
+        ],
+        [
+          726.2365591397851,
+          258.494623655914
+        ],
+        [
+          710.7526881720432,
+          292.90322580645164
+        ],
+        [
+          689.2473118279572,
+          350.5376344086022
+        ],
+        [
+          673.7634408602152,
+          378.9247311827957
+        ],
+        [
+          658.2795698924732,
+          390.96774193548384
+        ],
+        [
+          691.8279569892474,
+          267.9569892473119
+        ],
+        [
+          669.462365591398,
+          245.5913978494624
+        ]
+      ],
+      "group_id": null,
+      "description": "",
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},

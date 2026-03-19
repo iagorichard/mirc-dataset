@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -143,12 +144,12 @@
           328.0
         ],
         [
-          733.0,
-          335.0
+          729.9026425591098,
+          344.9374130737135
         ],
         [
-          742.0,
-          338.0
+          742.6981919332405,
+          341.15438108484
         ],
         [
           751.0,
@@ -272,12 +273,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000285.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

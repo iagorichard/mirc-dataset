@@ -1,82 +1,19 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
         [
-          418.0,
-          208.0
+          472.78000000000003,
+          193.68
         ],
         [
-          418.0,
-          212.0
-        ],
-        [
-          420.0,
-          215.0
-        ],
-        [
-          420.0,
-          218.0
-        ],
-        [
-          422.0,
-          221.0
-        ],
-        [
-          422.0,
-          223.0
-        ],
-        [
-          427.0,
-          225.0
-        ],
-        [
-          432.0,
-          217.0
-        ],
-        [
-          439.0,
-          215.0
-        ],
-        [
-          442.0,
-          213.0
-        ],
-        [
-          447.0,
-          213.0
-        ],
-        [
-          450.0,
-          211.0
-        ],
-        [
-          455.0,
-          210.0
-        ],
-        [
-          457.0,
-          208.0
-        ],
-        [
-          466.0,
-          208.0
-        ],
-        [
-          467.0,
-          207.0
-        ],
-        [
-          469.0,
-          209.0
-        ],
-        [
-          473.0,
-          210.0
+          471.26000000000005,
+          200.72
         ],
         [
           475.0,
@@ -389,42 +326,6 @@
         [
           479.0,
           190.0
-        ],
-        [
-          458.0,
-          198.0
-        ],
-        [
-          454.0,
-          198.0
-        ],
-        [
-          450.0,
-          200.0
-        ],
-        [
-          446.0,
-          200.0
-        ],
-        [
-          442.0,
-          202.0
-        ],
-        [
-          438.0,
-          202.0
-        ],
-        [
-          429.0,
-          205.0
-        ],
-        [
-          421.0,
-          205.0
-        ],
-        [
-          419.0,
-          206.0
         ]
       ],
       "group_id": null,
@@ -432,10 +333,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -793,10 +694,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1094,12 +995,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam1_000315.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

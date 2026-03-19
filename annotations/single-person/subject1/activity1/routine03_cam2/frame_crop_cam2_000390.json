@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -175,32 +176,36 @@
           300.0
         ],
         [
-          737.0,
-          307.0
+          734.1958887545344,
+          301.98307134220073
         ],
         [
-          737.0,
-          309.0
+          734.776299879081,
+          304.01451027811373
         ],
         [
-          740.0,
-          311.0
+          734.2926239419589,
+          306.6263603385732
         ],
         [
-          742.0,
-          311.0
+          733.5187424425634,
+          310.4957678355502
         ],
         [
-          748.0,
-          317.0
+          732.6481257557436,
+          314.8488512696494
         ],
         [
-          757.0,
-          320.0
+          730.6166868198306,
+          327.52116082224916
         ],
         [
-          769.0,
-          319.0
+          745.0302297460702,
+          339.5163240628779
+        ],
+        [
+          771.936507936508,
+          332.6349206349207
         ],
         [
           775.0,
@@ -356,10 +361,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -793,10 +798,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1142,12 +1147,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000390.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

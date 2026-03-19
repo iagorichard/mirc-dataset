@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -276,10 +277,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -550,6 +551,50 @@
       ],
       "group_id": null,
       "description": null,
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "person",
+      "score": null,
+      "points": [
+        [
+          702.1505376344088,
+          244.73118279569894
+        ],
+        [
+          724.5161290322582,
+          266.23655913978496
+        ],
+        [
+          684.9462365591401,
+          354.8387096774194
+        ],
+        [
+          672.9032258064517,
+          387.52688172043014
+        ],
+        [
+          656.5591397849464,
+          384.94623655913983
+        ],
+        [
+          669.462365591398,
+          350.5376344086022
+        ],
+        [
+          687.5268817204302,
+          261.07526881720435
+        ],
+        [
+          678.9247311827958,
+          249.8924731182796
+        ]
+      ],
+      "group_id": null,
+      "description": "",
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},

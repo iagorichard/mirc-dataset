@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -276,10 +277,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -561,6 +562,70 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "person",
+      "score": null,
+      "points": [
+        [
+          710.3370786516855,
+          310.2247191011236
+        ],
+        [
+          701.3483146067416,
+          359.6629213483146
+        ],
+        [
+          693.2584269662923,
+          368.65168539325845
+        ],
+        [
+          701.3483146067416,
+          386.6292134831461
+        ],
+        [
+          701.3483146067416,
+          405.50561797752806
+        ],
+        [
+          713.0337078651686,
+          431.5730337078652
+        ],
+        [
+          724.7191011235957,
+          421.6853932584269
+        ],
+        [
+          732.808988764045,
+          410.89887640449433
+        ],
+        [
+          734.6067415730338,
+          392.9213483146067
+        ],
+        [
+          740.0,
+          372.24719101123594
+        ],
+        [
+          737.3033707865169,
+          343.4831460674157
+        ],
+        [
+          745.3932584269666,
+          335.39325842696627
+        ],
+        [
+          731.9101123595508,
+          320.11235955056173
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
       "attributes": {},
       "kie_linking": []
     }
@@ -568,5 +633,6 @@
   "imagePath": "frame_crop_cam4_000195.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

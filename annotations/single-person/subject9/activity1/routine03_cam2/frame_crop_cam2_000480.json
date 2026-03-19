@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -436,25 +437,13 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
-        [
-          967.0,
-          165.0
-        ],
-        [
-          957.0,
-          160.0
-        ],
-        [
-          947.0,
-          161.0
-        ],
         [
           925.0,
           176.0
@@ -690,22 +679,6 @@
         [
           952.0,
           181.0
-        ],
-        [
-          957.0,
-          179.0
-        ],
-        [
-          965.0,
-          173.0
-        ],
-        [
-          967.0,
-          173.0
-        ],
-        [
-          969.0,
-          170.0
         ]
       ],
       "group_id": null,
@@ -713,10 +686,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -749,20 +722,8 @@
           144.0
         ],
         [
-          973.0,
-          170.0
-        ],
-        [
-          961.0,
-          178.0
-        ],
-        [
-          956.0,
-          178.0
-        ],
-        [
-          956.0,
-          181.0
+          956.7326732673267,
+          179.87623762376236
         ],
         [
           934.0,
@@ -1010,12 +971,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000480.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

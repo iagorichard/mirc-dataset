@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -280,10 +281,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -761,10 +762,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1054,6 +1055,66 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "person",
+      "score": null,
+      "points": [
+        [
+          732.8888888888889,
+          303.1111111111111
+        ],
+        [
+          729.0793650793651,
+          320.63492063492066
+        ],
+        [
+          725.7777777777777,
+          329.26984126984127
+        ],
+        [
+          710.5396825396825,
+          320.88888888888886
+        ],
+        [
+          692.7619047619047,
+          306.92063492063494
+        ],
+        [
+          672.9523809523811,
+          297.015873015873
+        ],
+        [
+          669.9047619047618,
+          291.6825396825397
+        ],
+        [
+          686.4126984126983,
+          287.87301587301585
+        ],
+        [
+          696.5714285714286,
+          286.09523809523813
+        ],
+        [
+          704.1904761904761,
+          291.93650793650795
+        ],
+        [
+          713.8412698412699,
+          285.07936507936506
+        ],
+        [
+          727.047619047619,
+          293.968253968254
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
       "attributes": {},
       "kie_linking": []
     }
@@ -1061,5 +1122,6 @@
   "imagePath": "frame_crop_cam4_000360.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -292,175 +293,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
-      "label": "robot",
-      "score": null,
-      "points": [
-        [
-          433.0,
-          174.0
-        ],
-        [
-          426.0,
-          174.0
-        ],
-        [
-          425.0,
-          175.0
-        ],
-        [
-          422.0,
-          175.0
-        ],
-        [
-          421.0,
-          176.0
-        ],
-        [
-          419.0,
-          176.0
-        ],
-        [
-          418.0,
-          177.0
-        ],
-        [
-          417.0,
-          177.0
-        ],
-        [
-          416.0,
-          178.0
-        ],
-        [
-          417.0,
-          179.0
-        ],
-        [
-          417.0,
-          188.0
-        ],
-        [
-          418.0,
-          189.0
-        ],
-        [
-          418.0,
-          191.0
-        ],
-        [
-          419.0,
-          192.0
-        ],
-        [
-          419.0,
-          194.0
-        ],
-        [
-          420.0,
-          195.0
-        ],
-        [
-          420.0,
-          201.0
-        ],
-        [
-          421.0,
-          202.0
-        ],
-        [
-          421.0,
-          203.0
-        ],
-        [
-          423.0,
-          205.0
-        ],
-        [
-          428.0,
-          205.0
-        ],
-        [
-          429.0,
-          204.0
-        ],
-        [
-          432.0,
-          204.0
-        ],
-        [
-          433.0,
-          203.0
-        ],
-        [
-          437.0,
-          203.0
-        ],
-        [
-          440.0,
-          200.0
-        ],
-        [
-          439.0,
-          199.0
-        ],
-        [
-          439.0,
-          196.0
-        ],
-        [
-          438.0,
-          195.0
-        ],
-        [
-          438.0,
-          191.0
-        ],
-        [
-          437.0,
-          190.0
-        ],
-        [
-          437.0,
-          186.0
-        ],
-        [
-          438.0,
-          185.0
-        ],
-        [
-          438.0,
-          180.0
-        ],
-        [
-          437.0,
-          179.0
-        ],
-        [
-          437.0,
-          177.0
-        ],
-        [
-          435.0,
-          175.0
-        ],
-        [
-          434.0,
-          175.0
-        ]
-      ],
-      "group_id": null,
-      "description": null,
-      "difficult": false,
-      "shape_type": "polygon",
-      "flags": {},
-      "attributes": {},
-      "kie_linking": []
-    },
-    {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -954,10 +790,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1291,12 +1127,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam1_000375.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }
