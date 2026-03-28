@@ -1,8 +1,9 @@
 {
-  "version": "v4.0.0-beta.1",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -360,10 +361,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -617,10 +618,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -653,76 +654,12 @@
           292.0
         ],
         [
-          806.0,
-          292.0
-        ],
-        [
-          810.0,
-          302.0
-        ],
-        [
-          817.0,
-          307.0
-        ],
-        [
-          819.0,
-          301.0
-        ],
-        [
-          814.0,
-          293.0
-        ],
-        [
           817.0,
           283.0
         ],
         [
-          822.0,
-          283.0
-        ],
-        [
-          827.0,
-          280.0
-        ],
-        [
-          837.0,
-          280.0
-        ],
-        [
-          841.0,
-          283.0
-        ],
-        [
-          843.0,
-          288.0
-        ],
-        [
-          842.0,
-          293.0
-        ],
-        [
-          853.0,
-          289.0
-        ],
-        [
-          853.0,
-          280.0
-        ],
-        [
-          844.0,
-          273.0
-        ],
-        [
-          830.0,
-          273.0
-        ],
-        [
-          827.0,
-          275.0
-        ],
-        [
-          824.0,
-          274.0
+          822.1782178217821,
+          278.73762376237624
         ],
         [
           823.0,
@@ -970,8 +907,7 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000465.jpg",

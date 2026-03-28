@@ -1,8 +1,9 @@
 {
-  "version": "v4.0.0-beta.1",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -244,10 +245,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -473,10 +474,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -509,92 +510,12 @@
           293.0
         ],
         [
-          812.0,
-          304.0
-        ],
-        [
-          816.0,
-          307.0
-        ],
-        [
-          813.0,
-          313.0
-        ],
-        [
-          813.0,
-          320.0
-        ],
-        [
-          818.0,
-          325.0
-        ],
-        [
-          832.0,
-          324.0
-        ],
-        [
-          838.0,
-          327.0
-        ],
-        [
-          845.0,
-          324.0
-        ],
-        [
-          845.0,
-          316.0
-        ],
-        [
-          837.0,
-          308.0
-        ],
-        [
-          839.0,
-          303.0
-        ],
-        [
-          823.0,
-          304.0
-        ],
-        [
-          815.0,
-          296.0
-        ],
-        [
           813.0,
           290.0
         ],
         [
           827.0,
           279.0
-        ],
-        [
-          837.0,
-          278.0
-        ],
-        [
-          842.0,
-          283.0
-        ],
-        [
-          842.0,
-          300.0
-        ],
-        [
-          853.0,
-          291.0
-        ],
-        [
-          853.0,
-          281.0
-        ],
-        [
-          844.0,
-          274.0
-        ],
-        [
-          832.0,
-          274.0
         ],
         [
           828.0,
@@ -834,8 +755,7 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000600.jpg",

@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -167,32 +168,16 @@
           195.0
         ],
         [
-          1017.0,
-          192.0
+          1005.1707317073171,
+          211.21951219512192
         ],
         [
-          1012.0,
-          192.0
+          1004.0,
+          222.92682926829266
         ],
         [
-          997.0,
-          184.0
-        ],
-        [
-          984.0,
-          180.0
-        ],
-        [
-          977.0,
-          175.0
-        ],
-        [
-          956.0,
-          167.0
-        ],
-        [
-          943.0,
-          169.0
+          984.0975609756099,
+          237.7560975609756
         ],
         [
           916.0,
@@ -312,10 +297,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -561,10 +546,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -862,10 +847,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1103,12 +1088,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000390.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

@@ -1,38 +1,15 @@
 {
-  "version": "v4.0.0-beta.1",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
         [
-          954.0,
-          169.0
-        ],
-        [
-          947.0,
-          168.0
-        ],
-        [
-          942.0,
-          170.0
-        ],
-        [
-          939.0,
-          174.0
-        ],
-        [
-          937.0,
-          174.0
-        ],
-        [
-          917.0,
-          188.0
-        ],
-        [
-          912.0,
-          187.0
+          951.3245033112581,
+          213.37748344370863
         ],
         [
           887.0,
@@ -307,36 +284,8 @@
           233.0
         ],
         [
-          953.0,
-          224.0
-        ],
-        [
-          953.0,
-          215.0
-        ],
-        [
-          951.0,
-          207.0
-        ],
-        [
-          952.0,
-          198.0
-        ],
-        [
-          951.0,
-          193.0
-        ],
-        [
-          953.0,
-          189.0
-        ],
-        [
-          952.0,
-          183.0
-        ],
-        [
-          955.0,
-          176.0
+          954.2384105960265,
+          222.91390728476821
         ]
       ],
       "group_id": null,
@@ -344,10 +293,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -382,10 +331,6 @@
         [
           957.0,
           178.0
-        ],
-        [
-          954.0,
-          188.0
         ],
         [
           954.0,
@@ -617,12 +562,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000480.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

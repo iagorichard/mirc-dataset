@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -284,10 +285,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -569,10 +570,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -625,60 +626,40 @@
           200.0
         ],
         [
-          923.0,
-          205.0
-        ],
-        [
           946.0,
           211.0
         ],
         [
-          949.0,
-          215.0
+          976.9536423841058,
+          219.73509933774835
         ],
         [
-          976.0,
-          228.0
+          980.1324503311257,
+          228.47682119205297
         ],
         [
-          993.0,
-          246.0
+          986.7549668874171,
+          233.7748344370861
         ],
         [
-          1005.0,
-          253.0
+          994.9668874172185,
+          234.30463576158942
         ],
         [
-          1024.0,
-          260.0
+          1003.7086092715232,
+          234.30463576158942
         ],
         [
-          1031.0,
-          259.0
+          1012.7152317880793,
+          228.47682119205297
         ],
         [
-          1035.0,
-          256.0
+          1018.8079470198675,
+          223.97350993377484
         ],
         [
-          1043.0,
-          237.0
-        ],
-        [
-          1042.0,
-          234.0
-        ],
-        [
-          1050.0,
-          213.0
-        ],
-        [
-          1048.0,
-          205.0
-        ],
-        [
-          1038.0,
-          204.0
+          1024.635761589404,
+          222.38410596026492
         ],
         [
           1032.0,
@@ -878,10 +859,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1131,12 +1112,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000615.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

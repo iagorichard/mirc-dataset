@@ -1,8 +1,9 @@
 {
-  "version": "v4.0.0-beta.1",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -360,10 +361,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -665,10 +666,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -809,28 +810,36 @@
           220.0
         ],
         [
-          1044.0,
-          206.0
+          1041.7078651685395,
+          209.39325842696627
         ],
         [
-          997.0,
-          184.0
+          1037.573033707865,
+          201.30337078651684
         ],
         [
-          993.0,
-          184.0
+          1027.8651685393259,
+          202.02247191011236
         ],
         [
-          953.0,
-          166.0
+          1017.438202247191,
+          206.3370786516854
         ],
         [
-          947.0,
-          167.0
+          1006.8314606741571,
+          215.14606741573036
         ],
         [
-          915.0,
-          188.0
+          1008.6292134831459,
+          224.13483146067418
+        ],
+        [
+          1004.134831460674,
+          230.6067415730337
+        ],
+        [
+          981.1764705882354,
+          244.18300653594767
         ],
         [
           907.0,
@@ -962,12 +971,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000525.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

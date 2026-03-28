@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -288,10 +289,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -376,40 +377,20 @@
           229.0
         ],
         [
-          991.0,
-          245.0
+          987.6294277929156,
+          236.8392370572207
         ],
         [
-          1023.0,
-          260.0
+          1000.9264305177112,
+          240.5449591280654
         ],
         [
-          1032.0,
-          259.0
+          1017.4931880108993,
+          232.04359673024524
         ],
         [
-          1042.0,
-          237.0
-        ],
-        [
-          1041.0,
-          235.0
-        ],
-        [
-          1050.0,
-          212.0
-        ],
-        [
-          1047.0,
-          205.0
-        ],
-        [
-          1035.0,
-          202.0
-        ],
-        [
-          1033.0,
-          199.0
+          1023.5967302452317,
+          215.47683923705722
         ],
         [
           1037.0,
@@ -484,16 +465,8 @@
           183.0
         ],
         [
-          983.0,
-          181.0
-        ],
-        [
-          963.0,
-          172.0
-        ],
-        [
-          931.0,
-          168.0
+          997.874659400545,
+          191.49863760217983
         ],
         [
           880.0,
@@ -597,10 +570,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -854,12 +827,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000735.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

@@ -3,6 +3,7 @@
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -103,28 +104,8 @@
           243.0
         ],
         [
-          1027.0,
-          239.0
-        ],
-        [
-          1030.0,
-          240.0
-        ],
-        [
-          1027.0,
-          248.0
-        ],
-        [
-          1032.0,
-          251.0
-        ],
-        [
-          1035.0,
-          243.0
-        ],
-        [
-          1033.0,
-          240.0
+          1031.602023608769,
+          234.09780775716692
         ],
         [
           1037.0,
@@ -187,24 +168,20 @@
           189.0
         ],
         [
-          1002.0,
-          191.0
+          998.5497470489039,
+          200.77571669477229
         ],
         [
-          997.0,
-          184.0
+          1005.2951096121417,
+          204.55311973018547
         ],
         [
-          957.0,
-          167.0
+          997.7403035413155,
+          216.5598650927487
         ],
         [
-          948.0,
-          167.0
-        ],
-        [
-          920.0,
-          185.0
+          989.5109612141654,
+          225.05902192242831
         ],
         [
           916.0,
@@ -312,10 +289,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -585,10 +562,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -834,12 +811,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000465.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

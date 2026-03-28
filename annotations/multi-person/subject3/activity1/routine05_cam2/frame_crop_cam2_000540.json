@@ -1,8 +1,9 @@
 {
-  "version": "v4.0.0-beta.1",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -368,10 +369,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -589,10 +590,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -725,48 +726,24 @@
           218.0
         ],
         [
-          1046.0,
-          207.0
+          1012.1285140562247,
+          220.281124497992
         ],
         [
-          1017.0,
-          192.0
+          1007.6305220883534,
+          228.6345381526105
         ],
         [
-          1013.0,
-          192.0
+          1006.9879518072289,
+          240.20080321285144
         ],
         [
-          997.0,
-          184.0
+          991.2449799196786,
+          250.16064257028114
         ],
         [
-          993.0,
-          184.0
-        ],
-        [
-          977.0,
-          175.0
-        ],
-        [
-          952.0,
-          166.0
-        ],
-        [
-          942.0,
-          170.0
-        ],
-        [
-          924.0,
-          183.0
-        ],
-        [
-          916.0,
-          186.0
-        ],
-        [
-          908.0,
-          193.0
+          975.1807228915661,
+          255.62248995983938
         ],
         [
           902.0,
@@ -878,12 +855,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000540.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

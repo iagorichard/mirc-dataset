@@ -1,8 +1,9 @@
 {
-  "version": "v4.0.0-beta.1",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -164,10 +165,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -420,50 +421,6 @@
           179.0
         ],
         [
-          497.0,
-          173.0
-        ],
-        [
-          482.0,
-          162.0
-        ],
-        [
-          477.0,
-          160.0
-        ],
-        [
-          467.0,
-          162.0
-        ],
-        [
-          418.0,
-          179.0
-        ],
-        [
-          416.0,
-          181.0
-        ],
-        [
-          419.0,
-          198.0
-        ],
-        [
-          422.0,
-          206.0
-        ],
-        [
-          422.0,
-          211.0
-        ],
-        [
-          431.0,
-          220.0
-        ],
-        [
-          431.0,
-          223.0
-        ],
-        [
           426.0,
           228.0
         ],
@@ -513,10 +470,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -874,10 +831,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1139,12 +1096,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam1_000630.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

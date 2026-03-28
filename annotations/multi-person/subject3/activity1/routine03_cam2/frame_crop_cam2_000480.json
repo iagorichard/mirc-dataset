@@ -1,8 +1,9 @@
 {
-  "version": "v4.0.0-beta.1",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -280,10 +281,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -541,10 +542,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -689,28 +690,8 @@
           318.0
         ],
         [
-          791.0,
-          315.0
-        ],
-        [
-          797.0,
-          313.0
-        ],
-        [
-          798.0,
-          309.0
-        ],
-        [
-          804.0,
-          303.0
-        ],
-        [
-          812.0,
-          302.0
-        ],
-        [
-          815.0,
-          297.0
+          788.408163265306,
+          303.55102040816325
         ],
         [
           814.0,
@@ -719,46 +700,6 @@
         [
           817.0,
           288.0
-        ],
-        [
-          821.0,
-          288.0
-        ],
-        [
-          822.0,
-          290.0
-        ],
-        [
-          824.0,
-          287.0
-        ],
-        [
-          831.0,
-          285.0
-        ],
-        [
-          833.0,
-          282.0
-        ],
-        [
-          843.0,
-          279.0
-        ],
-        [
-          845.0,
-          277.0
-        ],
-        [
-          845.0,
-          275.0
-        ],
-        [
-          843.0,
-          273.0
-        ],
-        [
-          829.0,
-          273.0
         ],
         [
           827.0,
@@ -882,8 +823,7 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000480.jpg",

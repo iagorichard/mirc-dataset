@@ -3,6 +3,7 @@
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -211,40 +212,8 @@
           181.0
         ],
         [
-          779.0,
-          177.0
-        ],
-        [
-          798.0,
-          172.0
-        ],
-        [
-          807.0,
-          165.0
-        ],
-        [
-          807.0,
-          156.0
-        ],
-        [
-          802.0,
-          147.0
-        ],
-        [
-          797.0,
-          143.0
-        ],
-        [
-          777.0,
-          147.0
-        ],
-        [
-          762.0,
-          154.0
-        ],
-        [
-          759.0,
-          158.0
+          750.1854974704892,
+          167.15008431703203
         ],
         [
           747.0,
@@ -340,10 +309,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -693,10 +662,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -873,10 +842,6 @@
           156.0
         ],
         [
-          758.0,
-          156.0
-        ],
-        [
           763.0,
           151.0
         ],
@@ -885,16 +850,8 @@
           150.0
         ],
         [
-          774.0,
-          146.0
-        ],
-        [
           787.0,
           144.0
-        ],
-        [
-          794.0,
-          140.0
         ],
         [
           794.0,
@@ -1066,10 +1023,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1347,12 +1304,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam4_000345.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

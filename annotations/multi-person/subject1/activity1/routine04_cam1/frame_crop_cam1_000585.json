@@ -1,8 +1,9 @@
 {
-  "version": "v4.0.0-beta.1",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -328,10 +329,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -584,56 +585,8 @@
           178.0
         ],
         [
-          502.0,
-          177.0
-        ],
-        [
-          487.0,
-          165.0
-        ],
-        [
-          477.0,
-          160.0
-        ],
-        [
-          467.0,
-          162.0
-        ],
-        [
-          464.0,
-          164.0
-        ],
-        [
-          419.0,
-          178.0
-        ],
-        [
-          416.0,
-          181.0
-        ],
-        [
-          417.0,
-          192.0
-        ],
-        [
-          422.0,
-          208.0
-        ],
-        [
-          422.0,
-          214.0
-        ],
-        [
-          424.0,
-          218.0
-        ],
-        [
-          430.0,
-          222.0
-        ],
-        [
-          429.0,
-          225.0
+          425.57303370786514,
+          229.93258426966293
         ],
         [
           423.0,
@@ -681,10 +634,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1138,10 +1091,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1467,12 +1420,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam1_000585.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

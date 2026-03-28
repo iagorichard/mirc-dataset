@@ -1,23 +1,12 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
-        [
-          466.0,
-          163.0
-        ],
-        [
-          465.0,
-          167.0
-        ],
-        [
-          459.0,
-          179.0
-        ],
         [
           458.0,
           189.0
@@ -365,30 +354,6 @@
         [
           501.0,
           175.0
-        ],
-        [
-          481.0,
-          161.0
-        ],
-        [
-          479.0,
-          161.0
-        ],
-        [
-          478.0,
-          160.0
-        ],
-        [
-          474.0,
-          160.0
-        ],
-        [
-          473.0,
-          161.0
-        ],
-        [
-          470.0,
-          161.0
         ]
       ],
       "group_id": null,
@@ -396,10 +361,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -749,10 +714,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1066,10 +1031,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1359,12 +1324,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam1_000450.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

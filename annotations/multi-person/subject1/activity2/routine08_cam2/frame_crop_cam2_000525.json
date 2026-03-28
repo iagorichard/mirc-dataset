@@ -1,8 +1,9 @@
 {
-  "version": "v4.0.0-beta.1",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -236,10 +237,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -513,10 +514,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -685,36 +686,8 @@
           201.0
         ],
         [
-          1021.0,
-          197.0
-        ],
-        [
-          1017.0,
-          193.0
-        ],
-        [
-          1011.0,
-          192.0
-        ],
-        [
-          984.0,
-          181.0
-        ],
-        [
-          977.0,
-          176.0
-        ],
-        [
-          954.0,
-          168.0
-        ],
-        [
-          943.0,
-          170.0
-        ],
-        [
-          914.0,
-          190.0
+          981.0354223433243,
+          243.65122615803818
         ],
         [
           905.0,
@@ -830,12 +803,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000525.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

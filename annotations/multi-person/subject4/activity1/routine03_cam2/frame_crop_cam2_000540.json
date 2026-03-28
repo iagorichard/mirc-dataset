@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -248,10 +249,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -485,10 +486,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -573,40 +574,20 @@
           236.0
         ],
         [
-          1002.0,
-          251.0
+          999.191011235955,
+          234.96629213483143
         ],
         [
-          1026.0,
-          260.0
+          1010.1573033707864,
+          232.0898876404494
         ],
         [
-          1030.0,
-          259.0
+          1016.8089887640449,
+          222.38202247191012
         ],
         [
-          1033.0,
-          255.0
-        ],
-        [
-          1040.0,
-          238.0
-        ],
-        [
-          1041.0,
-          229.0
-        ],
-        [
-          1048.0,
-          214.0
-        ],
-        [
-          1047.0,
-          206.0
-        ],
-        [
-          1036.0,
-          204.0
+          1021.6629213483145,
+          222.38202247191012
         ],
         [
           1032.0,
@@ -802,10 +783,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1035,12 +1016,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000540.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

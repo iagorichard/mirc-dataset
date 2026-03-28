@@ -1,8 +1,9 @@
 {
-  "version": "v4.0.0-beta.1",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -240,10 +241,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -521,195 +522,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
-      "label": "person",
-      "score": null,
-      "points": [
-        [
-          0.0,
-          293.0
-        ],
-        [
-          0.0,
-          719.0
-        ],
-        [
-          49.0,
-          719.0
-        ],
-        [
-          55.0,
-          701.0
-        ],
-        [
-          56.0,
-          693.0
-        ],
-        [
-          59.0,
-          687.0
-        ],
-        [
-          59.0,
-          682.0
-        ],
-        [
-          61.0,
-          679.0
-        ],
-        [
-          65.0,
-          658.0
-        ],
-        [
-          70.0,
-          648.0
-        ],
-        [
-          72.0,
-          640.0
-        ],
-        [
-          71.0,
-          599.0
-        ],
-        [
-          67.0,
-          583.0
-        ],
-        [
-          68.0,
-          571.0
-        ],
-        [
-          58.0,
-          540.0
-        ],
-        [
-          51.0,
-          531.0
-        ],
-        [
-          47.0,
-          522.0
-        ],
-        [
-          41.0,
-          517.0
-        ],
-        [
-          35.0,
-          504.0
-        ],
-        [
-          29.0,
-          499.0
-        ],
-        [
-          28.0,
-          496.0
-        ],
-        [
-          23.0,
-          495.0
-        ],
-        [
-          21.0,
-          493.0
-        ],
-        [
-          21.0,
-          490.0
-        ],
-        [
-          37.0,
-          488.0
-        ],
-        [
-          48.0,
-          478.0
-        ],
-        [
-          52.0,
-          471.0
-        ],
-        [
-          58.0,
-          454.0
-        ],
-        [
-          60.0,
-          438.0
-        ],
-        [
-          60.0,
-          419.0
-        ],
-        [
-          57.0,
-          409.0
-        ],
-        [
-          39.0,
-          382.0
-        ],
-        [
-          34.0,
-          372.0
-        ],
-        [
-          35.0,
-          369.0
-        ],
-        [
-          27.0,
-          357.0
-        ],
-        [
-          26.0,
-          353.0
-        ],
-        [
-          21.0,
-          347.0
-        ],
-        [
-          18.0,
-          338.0
-        ],
-        [
-          16.0,
-          336.0
-        ],
-        [
-          15.0,
-          323.0
-        ],
-        [
-          17.0,
-          318.0
-        ],
-        [
-          4.0,
-          298.0
-        ],
-        [
-          3.0,
-          294.0
-        ]
-      ],
-      "group_id": null,
-      "description": null,
-      "difficult": false,
-      "shape_type": "polygon",
-      "flags": {},
-      "attributes": {},
-      "kie_linking": []
-    },
-    {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -903,10 +719,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -1176,12 +992,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam2_000090.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }

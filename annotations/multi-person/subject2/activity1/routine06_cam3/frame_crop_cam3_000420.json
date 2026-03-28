@@ -1,8 +1,9 @@
 {
-  "version": "3.3.10",
+  "version": "4.0.0-beta.2",
   "flags": {},
   "shapes": [
     {
+      "kie_linking": [],
       "label": "robot",
       "score": null,
       "points": [
@@ -31,44 +32,40 @@
           370.0
         ],
         [
-          683.0,
-          374.0
+          631.4887640449438,
+          369.83146067415726
         ],
         [
-          684.0,
-          381.0
+          619.3539325842696,
+          384.438202247191
         ],
         [
-          682.0,
-          384.0
+          615.9831460674156,
+          412.5280898876405
         ],
         [
-          684.0,
-          388.0
+          620.4775280898876,
+          428.48314606741576
         ],
         [
-          689.0,
-          392.0
+          637.7808988764044,
+          432.75280898876406
         ],
         [
-          687.0,
-          395.0
+          654.6348314606741,
+          429.60674157303373
         ],
         [
-          682.0,
-          391.0
+          660.252808988764,
+          422.64044943820227
         ],
         [
-          682.0,
-          395.0
+          664.0730337078651,
+          416.34831460674155
         ],
         [
-          687.0,
-          400.0
-        ],
-        [
-          692.0,
-          400.0
+          680.4775280898875,
+          412.5280898876405
         ],
         [
           698.0,
@@ -312,10 +309,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -649,10 +646,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -902,10 +899,10 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "person",
       "score": null,
       "points": [
@@ -1099,12 +1096,12 @@
       "difficult": false,
       "shape_type": "polygon",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "frame_crop_cam3_000420.jpg",
   "imageData": null,
   "imageHeight": 720,
-  "imageWidth": 1280
+  "imageWidth": 1280,
+  "description": ""
 }
