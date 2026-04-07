@@ -8,6 +8,8 @@ from tqdm import tqdm
 from ultralytics import YOLO
 
 import numpy as np
+import torch
+import head_segmentation.segmentation_pipeline as head_seg
 
 
 VIDEO_EXTS = {".mp4", ".avi", ".mov", ".mkv", ".wmv", ".m4v"}
@@ -260,6 +262,7 @@ def process_mosaic_frame(
     head_top_frac: float,
     head_height_frac: float,
     anon_whole_if_none: bool,
+    head_pipe
 ):
     subimgs = split_mosaic_2x2(frame)
 
@@ -359,9 +362,10 @@ def process_video(
                 head_top_frac=head_top_frac,
                 head_height_frac=head_height_frac,
                 anon_whole_if_none=anon_whole_if_none,
+                head_pipe=head_pipe
             )
 
-            #writer.write(processed_frame)
+            writer.write(processed_frame)
 
             if show_stream:
                 cv2.imshow(window_name, processed_frame)
@@ -412,13 +416,15 @@ def main():
 
     ANON_WHOLE_IF_NONE = False
 
-    SHOW_STREAM = True
+    SHOW_STREAM = False
     # -----------------------------
 
     IN_ROOT = IN_ROOT.resolve()
     OUT_ROOT = OUT_ROOT.resolve()
     OUT_ROOT.mkdir(parents=True, exist_ok=True)
 
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    head_pipe = head_seg.HumanHeadSegmentationPipeline(device=device)
     model = YOLO(YOLO_WEIGHTS)
 
     videos = find_videos(IN_ROOT)
