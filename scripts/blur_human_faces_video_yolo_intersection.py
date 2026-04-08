@@ -9,6 +9,8 @@ import torch
 from tqdm import tqdm
 from ultralytics import YOLO
 
+#HEAD MODEL FROM https://github.com/mohammad-hmz/head_detection_cpu/blob/main/head_detection_cpu.py
+
 
 VIDEO_EXTS = {".mp4", ".avi", ".mov", ".mkv", ".wmv", ".m4v"}
 
@@ -336,6 +338,88 @@ def build_upper_person_fallback_mask(
 
     return fallback_mask
 
+from pathlib import Path
+from typing import List
+import cv2
+from tqdm import tqdm
+from ultralytics import YOLO
+
+import cv2
+from pathlib import Path
+from typing import List
+from data.crop2pts import Crop2Pts
+from utils.files import ensure_cam_dirs
+from utils.maths import clamp_crop, is_valid_crop
+
+# Assume que já existem no seu projeto:
+# - Crop2Pts
+# - clamp_crop
+# - is_valid_crop
+# - ensure_cam_dirs
+# - process_mosaic_frame
+
+from pathlib import Path
+import cv2
+from tqdm import tqdm
+from ultralytics import YOLO
+
+
+def _fourcc_int_to_str(fourcc_value: int) -> str:
+    try:
+        return "".join([
+            chr((fourcc_value >> 0) & 0xFF),
+            chr((fourcc_value >> 8) & 0xFF),
+            chr((fourcc_value >> 16) & 0xFF),
+            chr((fourcc_value >> 24) & 0xFF),
+        ])
+    except Exception:
+        return ""
+
+
+def _is_reasonable_fourcc(codec: str) -> bool:
+    if not codec or len(codec) != 4:
+        return False
+    # evita lixo / nulos
+    return all(32 <= ord(c) <= 126 for c in codec)
+
+
+def _open_video_writer(out_path: Path, fps: float, width: int, height: int, input_codec: str = ""):
+    suffix = out_path.suffix.lower()
+
+    candidates = []
+
+    # tenta primeiro o codec do vídeo de entrada, se parecer válido
+    if _is_reasonable_fourcc(input_codec):
+        candidates.append(input_codec)
+
+    # depois tenta codecs comuns por container
+    if suffix == ".mkv":
+        candidates.extend(["FFV1", "XVID", "MJPG", "mp4v"])
+    elif suffix == ".mp4":
+        candidates.extend(["mp4v", "avc1", "H264", "XVID", "MJPG"])
+    elif suffix == ".avi":
+        candidates.extend(["XVID", "MJPG", "FFV1", "mp4v"])
+    else:
+        candidates.extend(["FFV1", "XVID", "MJPG", "mp4v"])
+
+    tried = []
+    for codec in candidates:
+        if codec in tried:
+            continue
+        tried.append(codec)
+
+        fourcc = cv2.VideoWriter_fourcc(*codec)
+        writer = cv2.VideoWriter(str(out_path), fourcc, fps, (width, height))
+        if writer.isOpened():
+            return writer, codec
+
+        writer.release()
+
+    raise RuntimeError(
+        f"Could not open VideoWriter for {out_path}. "
+        f"Tried codecs: {tried}"
+    )
+
 
 def process_video(
     video_path: Path,
@@ -367,14 +451,30 @@ def process_video(
     if fps <= 0:
         fps = 25.0
 
-    width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-    height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)) or 0
+    height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)) or 0
+    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT)) or 0
+
+    input_fourcc_int = int(cap.get(cv2.CAP_PROP_FOURCC)) or 0
+    input_codec = _fourcc_int_to_str(input_fourcc_int)
 
     writer = None
+    selected_codec = None
+
     if write_output:
-        fourcc = cv2.VideoWriter_fourcc(*"mp4v")
-        writer = cv2.VideoWriter(str(out_path), fourcc, fps, (width, height))
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        writer, selected_codec = _open_video_writer(
+            out_path=out_path,
+            fps=fps,
+            width=width,
+            height=height,
+            input_codec=input_codec
+        )
+        print(
+            f"Writing output: {out_path} | "
+            f"fps={fps:.3f} | size=({width}x{height}) | "
+            f"input_codec={repr(input_codec)} | output_codec={selected_codec}"
+        )
 
     frames_processed = 0
     heads_detected_total = 0
@@ -382,7 +482,11 @@ def process_video(
     affected_pixels_total = 0
     failed_frames = 0
 
-    pbar = tqdm(total=total_frames if total_frames > 0 else None, desc=f"Processing {video_path.name}", unit="frame")
+    pbar = tqdm(
+        total=total_frames if total_frames > 0 else None,
+        desc=f"Processing {video_path.name}",
+        unit="frame"
+    )
 
     while True:
         ok, frame = cap.read()
@@ -408,6 +512,15 @@ def process_video(
                 fallback_upper_portion=fallback_upper_portion
             )
 
+            # garante compatibilidade com writer
+            if processed_frame.ndim == 2:
+                processed_frame = cv2.cvtColor(processed_frame, cv2.COLOR_GRAY2BGR)
+            elif processed_frame.ndim == 3 and processed_frame.shape[2] == 4:
+                processed_frame = cv2.cvtColor(processed_frame, cv2.COLOR_BGRA2BGR)
+
+            if processed_frame.shape[1] != width or processed_frame.shape[0] != height:
+                processed_frame = cv2.resize(processed_frame, (width, height))
+
             if writer is not None:
                 writer.write(processed_frame)
 
@@ -430,12 +543,26 @@ def process_video(
             failed_frames += 1
             print(f"Frame processing error in {video_path.name}: {exc}")
 
+            # Para não quebrar a engenharia reversa / reconstrução,
+            # escreve o frame original quando o processamento falhar.
+            if writer is not None:
+                writer.write(frame)
+
+            frames_processed += 1
+
         pbar.update(1)
 
     pbar.close()
     cap.release()
+
     if writer is not None:
         writer.release()
+
+    if show_stream:
+        try:
+            cv2.destroyAllWindows()
+        except Exception:
+            pass
 
     return {
         "frames": frames_processed,
@@ -444,6 +571,7 @@ def process_video(
         "affected_pixels": affected_pixels_total,
         "failed": failed_frames,
     }
+
 
 def build_upper_person_fallback_mask(
     person_mask: Optional[np.ndarray],
