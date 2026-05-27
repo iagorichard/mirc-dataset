@@ -23,3 +23,19 @@ You can see the main MIRC dataset webpage for download at Hugging Face: https://
 > rm annotations.zip
 >
 > rm videos.zip
+
+5. Finally, you will see the folders "annotations", "videos", and scripts.
+
+### Preparing Data
+
+MIRC dataset has videos that internally combine a mosaic of 4 images in each frame (AKA supervideos). To handle this (crop + frame extraction), please follow these steps:
+
+1. Go to scripts folder.
+
+> cd scripts
+
+2. Run the script to read all videos, crop and extract all frames.
+
+> python video_cropper_release.py
+
+3. Wait for the process finish, then the dataset is ready to use.
