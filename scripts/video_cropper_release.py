@@ -9,7 +9,7 @@ def main():
     output_dir = AnnotationsDirPath.VALUE
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    mkv_files = find_files_recursively(root_dir, "mkv")
+    mkv_files = find_files_recursively(root_dir, "mp4")
     if not mkv_files:
         print(f"No .mkv files found under: {root_dir}")
         return
